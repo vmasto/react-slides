@@ -1,0 +1,50 @@
+.board-container {
+  height: 600px;
+  width: 100%;
+  text-align: left;
+}
+
+.btn-reset {
+  width: 130px;
+  border: 0;
+  background-color: #a2d0ef;
+  color: #2c303b;
+  margin-right: -2px;
+  position: relative;
+  z-index: 10;
+}
+
+.game-status {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.board {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 1px solid #a2d0ef;
+}
+
+.square {
+  height: 33.33333%;
+  width: 33.33333%;
+  box-sizing: border-box;
+  border: 2px solid #a2d0ef;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.square-x {
+  color: #37ef96;
+}
+
+.square-o {
+  color: #fffca2;
+}
